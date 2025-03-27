@@ -1,0 +1,11 @@
+.flex {
+    width: 200px;   
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
