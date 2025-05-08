@@ -1,0 +1,201 @@
+.main-banner {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.banner-buttons, .main-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orange-border-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+head, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292E36;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-dark {
+  background-color: #40464F;
+  min-height: 50vh;
+  padding: 0;
+  margin: 0;
+}
+
+.section-light {
+  background-color: #FFF8F5;
+  min-height: 50vh;
+  padding: 0;
+  margin: 0;
+}
+
+.logo .img {
+  width: 70%;
+}
+
+.custom-header .top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+}
+.custom-header .top-header .call-button {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: transparent;
+  border: 1px solid #E1B168;
+  color: #FFF8F5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.custom-header .top-header .call-button:hover {
+  color: #E1B168;
+  transition: 0.5s ease;
+}
+.custom-header .top-header .reservation-button {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #E1B168;
+  border: none;
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+  box-sizing: border-box;
+}
+.custom-header .top-header .reservation-button:hover {
+  background-color: transparent;
+  outline: 1px solid #E1B168;
+  color: #E1B168;
+  transition: 0.5s ease;
+}
+.custom-header .bottom-header {
+  top: -5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5%;
+  position: relative;
+}
+.custom-header .bottom-header::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #D4D7E5;
+}
+.custom-header .bottom-header .menu {
+  top: -5px;
+  list-style: none;
+  display: flex;
+  gap: 100px;
+}
+.custom-header .bottom-header .menu li a {
+  top: -5px;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: #FFF8F5;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.custom-header .bottom-header .menu li a:hover {
+  color: #E1B168;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.custom-header .bottom-header .socials a img {
+  top: -5px;
+  width: 24px;
+  height: 23px;
+  transition: opacity 0.3s ease;
+}
+.custom-header .bottom-header .socials a:hover img {
+  opacity: 0.7;
+}
+
+.orange-border-btn {
+  padding: 10px;
+  border: 1px solid #E1B168;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #3F4255;
+  cursor: pointer;
+  font-weight: bold;
+  color: #E1B168;
+  font-family: "Josefin Sans", sans-serif;
+  flex-direction: column;
+  gap: 3px;
+  width: 200px;
+  height: 60px;
+  transition: 0.5s ease;
+}
+.orange-border-btn span {
+  font-size: 12px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.orange-border-btn span:first-child {
+  font-size: 16px;
+  font-weight: 700;
+}
+.orange-border-btn:hover {
+  background-color: #E1B168;
+  border: 1px solid #E1B168;
+  color: #000000;
+  transition: 0.5s ease;
+}
+
+.main-banner {
+  position: relative;
+  color: #FFF8F5;
+}
+.main-banner .text-container {
+  color: #FFF8F5;
+  font-family: "Cormorant Infant", serif;
+}
+.main-banner .text-container h1 {
+  color: #FFF8F5;
+  font-size: 58px;
+  letter-spacing: 5%;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.banner-buttons {
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 35px;
+}
+
+.imgage-container img {
+  top: -5px;
+  margin-top: 27px;
+  margin-left: 26%;
+}
+
+.unline-menu {
+  top: -5px;
+}
+
+.unline-socials {
+  top: -5px;
+}/*# sourceMappingURL=main.css.map */
