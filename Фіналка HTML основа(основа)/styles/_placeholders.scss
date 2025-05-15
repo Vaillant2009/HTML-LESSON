@@ -1,0 +1,31 @@
+%container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+%d-flex-jc-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%second-title {
+  color: $button-text-color;
+  font-size: 36px;
+  line-height: 64px;
+  font-weight: 300;
+}
+
+
+%josefin-sans-uniquifier {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
